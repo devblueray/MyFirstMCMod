@@ -1,0 +1,83 @@
+!SESSION 2016-02-22 15:11:17.983 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-02-22 15:11:54.783
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\jasonl'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.debug.core 4 120 2016-02-22 15:12:11.805
+!MESSAGE Variable references empty selection: ${project_loc}
+
+!ENTRY org.eclipse.debug.core 4 120 2016-02-23 17:22:30.428
+!MESSAGE Variable references empty selection: ${project_loc}
+
+!ENTRY org.eclipse.core.resources 4 566 2016-02-24 15:23:44.365
+!MESSAGE Workspace was not properly initialized or has already shutdown.
+
+!ENTRY org.eclipse.core.jobs 4 1 2016-02-24 15:23:44.404
+!MESSAGE Worker thread ended job: Refreshing workspace(12), but still holds rule: ThreadJob(Refreshing workspace(12),[F/MDKExample/build/tmp/recompileMc/sources/net/minecraft/network])
+
+!ENTRY org.eclipse.core.resources 4 566 2016-02-24 15:23:45.511
+!MESSAGE Workspace was not properly initialized or has already shutdown.
+!SESSION 2016-02-24 15:23:48.236 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -data file:/C:/Users/jasonl/Documents/Mc189/MyFirstProject/eclipse/ -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-02-24 15:24:13.375
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\jasonl'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-02-25 00:57:33.753
+!MESSAGE The workspace will exit with unsaved changes in this session.
+
+!ENTRY org.eclipse.core.resources 4 566 2016-02-25 00:57:33.782
+!MESSAGE Workspace was not properly initialized or has already shutdown.
+
+!ENTRY org.eclipse.core.jobs 4 1 2016-02-25 00:57:33.783
+!MESSAGE Worker thread ended job: Refreshing workspace(10), but still holds rule: ThreadJob(Refreshing workspace(10),[F/MDKExample/src/main/java])
+!SESSION 2016-03-13 22:08:08.581 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -data C:\Users\jasonl\Documents\Mc189\MyFirstProject\eclipse -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-03-13 22:08:10.309
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-03-13 22:08:15.175
+!MESSAGE Invalid ZIP archive: C:\Users\jasonl\.gradle\caches\minecraft\net\minecraftforge\forge\1.8.9-11.15.1.1760\stable\20\forgeSrc-1.8.9-11.15.1.1760.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-03-13 22:08:15.262
+!MESSAGE Invalid ZIP archive: C:\Users\jasonl\.gradle\caches\minecraft\net\minecraftforge\forge\1.8.9-11.15.1.1760\stable\20\forgeSrc-1.8.9-11.15.1.1760.jar
+
+!ENTRY org.eclipse.ui 4 4 2016-03-13 22:08:15.395
+!MESSAGE Unable to create part
+!SUBENTRY 1 org.eclipse.ui 4 0 2016-03-13 22:08:15.395
+!MESSAGE Factory org.eclipse.jdt.ui.ClassFileEditorInputFactory returned null from createElement for editor id=org.eclipse.jdt.ui.ClassFileEditor name=null
+
+!ENTRY org.eclipse.jdt.core 4 0 2016-03-13 22:08:15.416
+!MESSAGE Invalid ZIP archive: C:\Users\jasonl\.gradle\caches\minecraft\net\minecraftforge\forge\1.8.9-11.15.1.1760\stable\20\forgeSrc-1.8.9-11.15.1.1760.jar
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-03-13 22:08:17.010
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\jasonl'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.

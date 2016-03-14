@@ -1,0 +1,64 @@
+[18:14:22] [Client thread/INFO]: Setting user: Player418
+[18:14:25] [Client thread/INFO]: LWJGL Version: 2.9.4
+[18:14:27] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:My Frist Mod
+[18:14:28] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[18:14:28] [Thread-9/INFO]: Initializing LWJGL OpenAL
+[18:14:28] [Thread-9/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[18:14:28] [Thread-9/INFO]: OpenAL initialized.
+[18:14:28] [Sound Library Loader/INFO]: Sound engine started
+[18:14:32] [Client thread/INFO]: Created: 16x16 textures-atlas
+[18:14:34] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:My Frist Mod
+[18:14:34] [Client thread/INFO]: SoundSystem shutting down...
+[18:14:34] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[18:14:34] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[18:14:34] [Thread-11/INFO]: Initializing LWJGL OpenAL
+[18:14:34] [Thread-11/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[18:14:34] [Thread-11/INFO]: OpenAL initialized.
+[18:14:34] [Sound Library Loader/INFO]: Sound engine started
+[18:14:38] [Client thread/INFO]: Created: 512x512 textures-atlas
+[18:14:39] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[18:14:43] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[18:14:43] [Server thread/INFO]: Starting integrated minecraft server version 1.8.9
+[18:14:43] [Server thread/INFO]: Generating keypair
+[18:14:44] [Server thread/INFO]: Preparing start region for level 0
+[18:14:45] [Server thread/INFO]: Preparing spawn area: 95%
+[18:14:45] [Server thread/INFO]: Changing view distance to 12, from 10
+[18:14:45] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[18:14:47] [Server thread/INFO]: Player418[local:E:e5e7322f] logged in with entity id 281 at (103.92000012554708, 63.0, 249.4395568938926)
+[18:14:47] [Server thread/INFO]: Player418 joined the game
+[18:14:47] [pool-2-thread-1/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@21314790[id=5bf9c219-9b9d-3293-9d0d-11b90d104d35,name=Player418,properties={},legacy=false]
+com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:65) ~[YggdrasilAuthenticationService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:175) [YggdrasilMinecraftSessionService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:59) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:56) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3524) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2317) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2280) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2195) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3934) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:3938) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:4821) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:4827) [guava-17.0.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:165) [YggdrasilMinecraftSessionService.class:?]
+	at net.minecraft.client.Minecraft.func_181037_M(Minecraft.java:2915) [Minecraft.class:?]
+	at net.minecraft.client.resources.SkinManager$3.run(SkinManager.java:130) [SkinManager$3.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_45]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_45]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_45]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_45]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_45]
+[18:14:57] [Server thread/INFO]: Saving and pausing game...
+[18:14:57] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[18:14:57] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[18:14:57] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[18:15:34] [Server thread/INFO]: Stopping server
+[18:15:34] [Server thread/INFO]: Saving players
+[18:15:34] [Server thread/INFO]: Saving worlds
+[18:15:34] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[18:15:34] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[18:15:34] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[18:15:35] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[18:15:36] [Client thread/INFO]: Stopping!
+[18:15:36] [Client thread/INFO]: SoundSystem shutting down...
+[18:15:36] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
